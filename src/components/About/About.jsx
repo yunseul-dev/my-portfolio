@@ -57,13 +57,9 @@ const About = () => {
         <Container m={30}>
           <Typing str="수학과 미술을 좋아하는 Frontend 주니어 개발자 입니다." isLast={0} isSpecial={true} />
           <Typing str="나의 발자취를 기록하는 것을 좋아합니다." isLast={1} />
+          <Typing str="일상에서 마주한 불편함으로 더 나은 사용자 경험에 대해 고민합니다." isLast={2} isSpecial={true} />
           <Typing
-            str="일상에서 마주한 불편함으로  더 나은 사용자 경험에 대해 고민합니다."
-            isLast={2}
-            isSpecial={true}
-          />
-          <Typing
-            str=" 더 나은 세상 을 위해 IT 기술을 활용하고 싶습니다."
+            str=" 더 나은 세상을 위해 IT 기술을 활용하고 싶습니다."
             isLast={3}
             setAnimationCompleted={() => {
               setAnimationCompleted(true);
