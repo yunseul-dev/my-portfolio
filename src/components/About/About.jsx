@@ -1,6 +1,6 @@
 import { Center, Container, Image, Text, Flex, Button, Modal } from '@mantine/core';
 import { HiUser, HiPhone, HiMail, HiCake } from 'react-icons/hi';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import Typing from './Typing';
 import { useDisclosure } from '@mantine/hooks';
 

@@ -1,5 +1,5 @@
 import { Center, Container, Text, Flex, Title, Image } from '@mantine/core';
-import React, { useState, useEffect } from 'react/cjs/react.development';
+import React, { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
 import { keyframes } from '@emotion/react';
 
