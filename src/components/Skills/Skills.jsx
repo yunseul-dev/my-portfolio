@@ -14,7 +14,7 @@ to {
 `;
 
 const AnimateContainer = styled.div`
-  animation: ${goUp} 1.5s;
+  animation: ${goUp} 1s;
 `;
 
 const Skills = () => {
