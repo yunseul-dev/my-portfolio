@@ -72,6 +72,7 @@ const CulPop = () => {
             delay={2000}
           />
           <Flex justify={'flex-start'} align={'center'} mt={15} gap={10}>
+            <CustomAnchor href={'https://culpop.vercel.app/'} name={'site'} />
             <CustomAnchor href={'https://www.notion.so/CulPop-c49f32ce4b224eceb23311692d552e17'} name={'notion'} />
             <CustomAnchor href={'https://github.com/IxxP-Girls'} name={'github'} />
             <Button onClick={open} color="violet.8">
