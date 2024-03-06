@@ -9,7 +9,7 @@ const CulPop = () => {
   const [opened, { open, close }] = useDisclosure(false);
 
   const skills = [
-    'Javascript',
+    'TypeScript',
     'React',
     'Recoil',
     'Vite',
@@ -103,6 +103,9 @@ const CulPop = () => {
           </Text>
           <Text>
             <FaCheck /> 검색 기능, 페이지네이션,무한 스크롤, 댓글 기능 구현
+          </Text>
+          <Text>
+            <FaCheck /> 자바스크립트에서 타입스크립트로 마이그레이션
           </Text>
           <Divider my="md" />
           <Flex pb={10} gap={5} wrap={'wrap'}>
